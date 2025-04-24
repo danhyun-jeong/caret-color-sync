@@ -1,9 +1,11 @@
 {
   "id": "caret-color-sync",
   "name": "Caret Color Sync",
-  "version": "2.0",
-  "minAppVersion": "0.12.0",
+  "version": "1.0",
+  "minAppVersion": "2.1.0",
   "description": "Changes caret(cursor) color based on different input sources.",
   "author": "Danhyun Jeong",
+  "authorUrl": "https://github.com/danhyun-jeong",
+  "isDesktopOnly": true,
   "main": "main.js"
 }
