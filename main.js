@@ -91,8 +91,6 @@ module.exports = class CaretColorSyncPlugin extends Plugin {
       const prev = lastStatus;
       lastStatus = status;
 
-      console.log("Current Input Source:", status);
-
       const editors = document.querySelectorAll(".cm-content");
       editors.forEach((editor) => {
         // Update CSS classes on the main editor content element
